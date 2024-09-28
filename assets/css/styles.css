@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Raleway, sans-serif;
+}
+
+main {
+    color: #fff;
+    font-size: 16px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #33A8DB;
+    background-color: #000;
+}
+
+.title {
+    background-image: linear-gradient(rgb(51, 168, 219), rgb(20, 114, 183));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.subtitle {
+    color: #33A8DB;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 19%;
+    margin-bottom: 24px;
+}
+
+.description {
+    font-weight: 16px;
+    width: 792px;
+    margin-bottom: 24px;
+}
+
+.topics {
+    background-color: #252525;
+    width: 535px;
+    border-radius: 57px;
+    border: 1px solid #33a8db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.topics span {
+    color: #33A8DB;
+}
+
+.section-1 {
+    height: 605px;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../imgs/background_code.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-1 .logo-container {
+    width: 268px;
+    height: 268px;
+    background-color: rgba(0, 0, 0, .2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    margin-bottom: 16px;
+}
+
+.section-1 .logo-container img {
+    width: 248px;
+    height: 214px;
+}
+
+.section-1 p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.section-1 a {
+    color: #31a8dd;
+    text-decoration: none;
+    padding: 19px 46px;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(rgba(59, 161, 205, 1), rgba(21, 114, 183, 1) 1);
+}
+
+.section-2 {
+    height: 533px;
+}
+
+.section-3 {
+    height: 340px;
+    align-items: flex-start;
+    position: relative;
+    background: transparent;
+}
+.parallax-container {
+    position: fixed;
+    height: 100vh;
+    background: #000;
+    width:100%;
+    top:0;
+    z-index: -1;
+}
+
+.parallax-content {
+    margin-top: 320px;
+    background-image: url(../imgs/background_programmer.png);
+    height: 460px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.parallax-text {
+    position: fixed;
+    margin-top: 110px;
+    margin-left: 190px;
+}
+
+.section-3 p {
+    font-size: 40px;
+    font-weight: bold;
+    filter: drop-shadow(#33a8d8 3px 2px);
+    z-index: -1;
+}
+
+.section-4 {
+    height: 820px;
+}
+
+.section-4 img {
+    margin-bottom: 40px;
+    width: 660px;
+    height: 430px;
+    object-fit: cover;
+}
+
+.section-4 p {
+    width: 792px;
+}
+
+footer {
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    background-image: linear-gradient(rgba(51, 168, 219, 0), rgba(51, 168, 219, 0.2));
+}
+
+footer img {
+    margin-bottom: 10px;
+}
+footer a {
+    text-decoration: none;
+
+}
+
+footer a span {
+  color: #33A8DB;
+  font-weight: bold;
+}
+
+
+
